@@ -1,0 +1,48 @@
+{
+  "name": "woodpecker-ci-mcp-server",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) server for Woodpecker CI. Lets AI assistants like Claude inspect pipelines, workflows, steps and decoded build logs. Zero dependencies, single-file, stdio transport.",
+  "type": "module",
+  "bin": {
+    "woodpecker-mcp": "server.mjs"
+  },
+  "main": "server.mjs",
+  "files": [
+    "server.mjs"
+  ],
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "woodpecker",
+    "woodpecker-ci",
+    "ci-cd",
+    "ci",
+    "pipeline",
+    "build-logs",
+    "claude",
+    "claude-code",
+    "anthropic",
+    "ai",
+    "llm",
+    "llm-tools",
+    "agent",
+    "devops"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coredeskdev/woodpecker-ci-mcp-server.git"
+  },
+  "homepage": "https://github.com/coredeskdev/woodpecker-ci-mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/coredeskdev/woodpecker-ci-mcp-server/issues"
+  },
+  "author": "coredeskdev",
+  "license": "MIT"
+}
